@@ -1,0 +1,89 @@
+Page: **Salty Pelican Boat Tours - Welcome**
+ - Hero Header Section: A captivating image of crystal blue, clear waters in tropical weather with a tagline encouraging visitors to book their unforgettable water-based experience.
+ - Private Charters and Daily Departures: Explore daily tours aboard The Dolphin Quest for all ages. The Dolphin Fun Tour offers a 1.5-hour adventure to see dolphins in Boca Ciega Bay. The Sunsets & Dolphins Tour provides a 2-hour evening cruise with stunning sunsets. The 4-hour Shell Key Adventure includes exploration and wildlife viewing. Private charters for up to 17 guests offer customizable trips from 2 to 6 hours, ideal for special occasions. Enjoy Florida’s Gulf Coast with these unforgettable experiences.
+ - Private Charters and Daily Departures: Explore private charters offering tailored experiences for unforgettable memories on the water. Choose your vessel from The Everglades or The Dolphin Quest, perfect for any group size. Our flexible options cater to families, friends, and special occasions, ensuring a personalized adventure. Experience the Gulf Coast like never before and create lasting memories with our exceptional charters. Book your private charter or daily departure today to embark on an extraordinary journey.
+ - Testimonial Section: Positive reviews and testimonials from previous customers highlighting their experiences.
+ - Booking Code Snippet: Fare Harbor Integration - Public Tours
+ - Team Section: Introduction of Captain Rob and Emily, highlighting their expertise and passion for boat tours.
+ - Gallery Section: Display gallery of images relating to the provide or service
+ - Stats Section: With over 1,000 tours conducted, we pride ourselves on delivering exceptional experiences. Our customer satisfaction rate stands at an impressive 95%, reflecting our commitment to quality. 8+ Years of experience in providing memorable boat tours.
+ - CTA Section: Encourage visitors to book their tour with a clear and engaging call-to-action button leading to the booking system.
+ - FAQ Section: Commonly asked questions and answers about the tours, booking process, and what to expect.
+ - Contact Section: Encourage visitors to contact company
+ - Footer
+
+Sub-pages: About Us, Private Tours, Public Tours, Privacy Policy, Legal
+
+
+Page: **About Us**
+ - Header Section: Title: About Salty Pelican Boat Tours - Discover Gulfport's Hidden Gems
+ - About Section: Overview of Salty Pelican Boat Tours, focusing on providing unforgettable adventures in Gulfport, FL.
+ - Team Section: Introduction of Captain Rob and Emily, highlighting their expertise and passion for boat tours.
+ - Feature Section: Details on the personalized service and the variety of tours offered, including private and public options.
+ - Feature Section: Description of two boats owned and operated. the Dolphin Quest for daily departing public eco-tours and sunset tours and the Everglades boat for private charters upon reservation, great for bachelor and bachelorette parties, and small groups up to six passengers emphasizing its capacity and suitability for both serene sunset cruises and exciting eco adventures while the dolphin quest boat has 17 passenger capacity but can be reserved for private charters for groups larger than six passengers.
+ - Stats Section: With over 1,000 tours conducted, we pride ourselves on delivering exceptional experiences. Our customer satisfaction rate stands at an impressive 95%, reflecting our commitment to quality. 8+ Years of experience in providing memorable boat tours.
+ - Testimonial Section: Customer testimonials that speak to the memorable experiences provided by Captain Rob and Emily.
+ - CTA Section: Encourage visitors to book a tour, with a call-to-action button leading to the booking system.
+
+Page: **Private Tours**
+ - Header Section: Title: "Private Charters Aboard the Everglades" with a scenic image of passengers from a bachelorette party onboard the boat wearing pink.
+ - CTA Section: Encourage visitors to book their private tour with a call-to-action button leading to the FareHarbor booking system.
+ - Booking Code Snippet: Fare Harbor Integration - Private Charters
+ - Features List Section: Descriptions of each private tour option:  1) Sunsets & Dolphins Tour on the Everglades 2) Private Charter on The Everglades 3) Sunsets & Dolphins Tour on the Everglades
+ - Testimonial Section: Customer testimonials specifically about the private tours, showcasing positive experiences and satisfaction.
+ - FAQ Section: Common questions and answers about the private tours, including customization options and what to expect.
+
+Page: **Public Tours**
+ - Header Section: Title: "Departing Daily ! Eco-Tours & Sunset Tours Aboard the Dolphin Quest" with a scenic image of dolphins in crystal clear water
+ - Gallery
+ - Features List Section: Descriptions of each public tour option: 1) Dolphin Fun Tour 2) Sunsets & Dolphins Tour 3) Shell Key Adventure 4) Private Charter on the Dolphin Quest
+ - Testimonial Section: Customer testimonials specifically about the public tours, showcasing positive experiences and satisfaction.
+ - CTA Section: Clear and engaging call-to-action button for booking a tour, integrated with FareHarbor for secure and seamless payment processing.
+ - FAQ Section: Common questions and answers about the public tours, including customization options and what to expect.
+
+Page: **Privacy Policy**
+ - Header Section: A clear and concise title such as "Terms of Service" with a brief introduction explaining the purpose of the document.
+ - Legal Page Body Section: Detailed information on how Salty Pelican Boat Tours collects, uses, and protects personal information, including data sharing and user rights.
+
+Sub-pages: Terms of Service
+
+
+Page: **Terms of Service**
+ - Header Section: A clear and concise title such as "Terms of Service" with a brief introduction explaining the purpose of the document.
+ - Legal Page Body Section: Detailed terms and conditions covering rules and guidelines for using the website and booking services, including sections on liability, cancellations, and user responsibilities.
+
+Sub-pages: Waiver Policy, Refund Policy
+
+
+Page: **Waiver Policy**
+ - Header Section: Introduction to the waiver policy, emphasizing the importance of reading and understanding the terms before participating in any boat tour.
+ - Legal Page Body Section: Detailed waiver policy content including liability release, acknowledgment of risks, photographic consent, and agreement terms.
+ - Footer
+
+Page: **Refund Policy**
+ - Header Section: A clear and concise title such as "Terms of Service" with a brief introduction explaining the purpose of the document.
+ - Legal Page Body Section: Detailed explanation of the conditions under which refunds are issued, including cancellation deadlines and any non-refundable deposits.
+
+Sub-pages: Cookie Policy
+
+
+Page: **Cookie Policy**
+ - Header Section: A clear and concise title such as "Terms of Service" with a brief introduction explaining the purpose of the document.
+ - Legal Page Body Section: Detailed information on how cookies are used on the site, what data is collected, and how users can manage their cookie preferences.
+
+Sub-pages: Accessibility Statement
+
+
+Page: **Accessibility Statement**
+ - Header Section: Title of the page "Accessibility Statement" prominently displayed with an introduction about the company's commitment to accessibility.
+ - Legal Page Body Section: Detailed content affirming the company's commitment to providing an accessible website experience for all users, including those with disabilities.
+ - Footer-SP
+
+Page: **Legal**
+ - Navbar
+ - Legal Page Body Section
+
+Sitemap: **Sitemap 1**
+Pages: Home
+
+Page: **Home**

@@ -1,0 +1,33 @@
+Salty Pelican Page Structure
+
+
+
+Home
+
+About Us
+ - Our Story
+ 	- Behind the Wheel w/Captain Ron
+ 	- A Floating Classroom w/Captain Emily
+
+Contact Us
+
+Private Tours
+ - Private Tours Overview
+	- Tour Types: Private Tours
+		- Small Groups: The Pelly-Can	
+		- Large Groups: The Dolpin Quest
+
+
+Daily Departures
+ - Daily Departures Overview 
+	- Tour Types: Daily Departure 
+
+
+Disclosure:
+ 
+	1.	Privacy Policy
+	2.	Terms of Service
+	3.	Waiver Policy Overview
+	4.	Refund Policy
+	5.	Cookie Policy
+	6.	Accessibility Statement

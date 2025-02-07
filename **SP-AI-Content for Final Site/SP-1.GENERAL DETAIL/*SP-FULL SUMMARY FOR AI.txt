@@ -1,0 +1,188 @@
+
+Objective. I have 9 hours to build a website and factor in add-ons as described below. 
+
+Here are you tools at your disposal. you can use decide to use or discard them, use together, use separately, integrate, whatever you like, or you can recommend tools outside of this list as it is not exhuative just what i have paid plans for and familiarity with, not a power user of any and not a web designer by trade and not a web developer at all just familiar with the landscape, but can utilize AI, such as CodeGPT integrations into VS Code for example: 
+Detail:
+
+Existing landing page for salty water pelican tours is already on Webflow hosted in namecheap. you can find the landing page here: 
+
+https://www.saltypelicanboattours.com/
+
+Design Tools:
+
+ Figma (paid lite version) CodePen.io (unpaid)
+
+Framer.com (paid tier)
+https://replit.com/ (Paid Version)
+CodeGPT.co (pro paid plan)
+Canva.com (paid plan)
+Cursor.com (free plan)
+
+
+Website Development: 
+
+Webflow.com (paid version)
+
+Domain Purchased and held at: 
+
+Namecheap.com
+
+Wireframe, Sitemaps, (feature of importance: text to AI to sitemap feature very fast, also the HTML to framer
+Relume.io
+
+add sitemap
+
+Must use the customer's paid account of Fare Harbor: 
+
+https://fareharbor.com/
+
+add code snippets 
+
+
+Research resources:
+
+Perplexity.com (paid plan)
+ChatGPT Pro Plan (I have the $200/month plan with newest ai as of Feb 7th, 2025)
+- We can use: OpenAI Deep Research - learn about it here: https://openai.com/index/introducing-deep-research/
+Google Studio with Vertex AI and Google's Flash 2.0
+
+
+
+The customer (salty pelican boat tours) gets its best profit margins and most business on private tours aboad the Pelly-can 6 seater max and the larger 17 person max boat the Dolphin Quest which handles the daily departing public tours where a group is mixed and both can book online through fare harbor code snippet integrations dropped into webflow. 
+
+Many private tours come in through the phone number on the website and also third party sites like: 
+
+https://www.getmyboat.com/boat-rental/
+
+small groups who join other groups on the 17-max passenger vessel, the dolphin quest, often find salty pelican on:
+
+www.groupon.com
+
+I set the customer up with a gmail we can both use, but i will tie these accounts to related to the web development
+
+
+Mind mapping tools, if needed:
+
+- mapify.so
+- Xmind  
+
+
+ADD ONS Customer requests:
+
+1. NEEDS High quality SEO plan. 
+2. 2) Customer wants uses of AI to find his company for online bookings
+Customer wants chatbot. 
+3. Customer want google analytics 
+4. Customer wants cookie consent
+
+
+
+
+mind map output in markdown:
+
+# Salty Pelican Traffic Strategy
+
+## Overview of the Traffic Strategy
+
+### Key Objectives
+
+- Drive traffic to the website (blackpelicanboattours.com).
+
+- Increase customer engagement and bookings.
+
+- Streamline integration across platforms.
+
+### Tools and Platforms
+
+- Webflow for website design and hosting.
+
+- Integration with Harbor.com for booking management.
+
+- Use of Code Snippets for customization.
+
+### Challenges
+
+- Managing costs effectively.
+
+- Ensuring seamless integration between tools.
+
+- Addressing customer needs and feedback.
+
+## Website Development and Hosting
+
+### Webflow as the Core Platform
+
+- Webflow chosen for its design flexibility and hosting capabilities.
+
+- Current state of the website evaluated for improvements.
+
+- Landing page optimization as a priority.
+
+### Integration with Harbor.com
+
+- Harbor.com used for booking management.
+
+- Focus on seamless integration to avoid disruptions.
+
+- Custom code snippets implemented for specific needs.
+
+### Cost Management
+
+- Strategies to reduce hosting and development costs.
+
+- Evaluation of current expenses and potential savings.
+
+- Importance of balancing quality and affordability.
+
+## Customer Engagement and Marketing
+
+### Target Audience
+
+- Identifying the primary customer base.
+
+- Understanding customer preferences and behaviors.
+
+- Tailoring marketing strategies to meet customer needs.
+
+### Marketing Channels
+
+- Leveraging social media for outreach.
+
+- Email campaigns to retain and engage customers.
+
+- Partnerships with local businesses for cross-promotion.
+
+### Measuring Success
+
+- Tracking website traffic and conversion rates.
+
+- Gathering customer feedback for continuous improvement.
+
+- Setting clear goals and benchmarks for performance.
+
+## Future Improvements
+
+### Enhancing User Experience
+
+- Simplifying the booking process for customers.
+
+- Improving website navigation and design.
+
+- Addressing customer feedback promptly.
+
+### Expanding Services
+
+- Adding new features to the website.
+
+- Exploring additional partnerships for growth.
+
+- Offering promotions and discounts to attract new customers.
+
+### Long-Term Goals
+
+- Establishing a strong online presence.
+
+- Building a loyal customer base.
+
+- Achieving sustainable growth through strategic planning.
+
