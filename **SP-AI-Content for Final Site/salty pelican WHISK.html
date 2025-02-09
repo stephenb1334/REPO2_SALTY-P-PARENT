@@ -1,0 +1,434 @@
+<!-- BEGIN SINGLE-BLOCK CODE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salty Pelican - Mockup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Avenir+Next:wght@400;500;600;700&family=Open+Sans:wght@400;500&family=Roboto:wght@400;700&display=swap"
+  />
+
+  <style>
+    /* Global reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Open Sans", sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /***************************************************
+     * SIMPLE NAV / BANNER
+     ***************************************************/
+    header {
+      background-color: #fff;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+    }
+    header img {
+      height: 50px; 
+      width: auto;
+    }
+    nav a {
+      margin-right: 20px;
+      color: #2656A0;
+      font-weight: 500;
+    }
+    nav a:last-child {
+      margin-right: 0;
+    }
+
+    .hero-banner {
+      width: 100%;
+      min-height: 40vh;
+      background: 
+        url('https://cdn.prod.website-files.com/67646bc27cd171f4f4446754/67647c01935493c499a3104d_banners-salty-pelican-banners-004.jpg')
+        center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+    .hero-banner::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.35);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 700px;
+      padding: 60px 20px;
+    }
+    .hero-content h1 {
+      font-family: "Avenir Next", sans-serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+    .hero-content p {
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+    }
+    .hero-content a.cta-btn {
+      display: inline-block;
+      background: #fff;
+      color: #2656A0;
+      font-weight: 600;
+      padding: 14px 30px;
+      border-radius: 30px;
+      transition: 0.3s ease;
+    }
+    .hero-content a.cta-btn:hover {
+      background: #ebebeb;
+    }
+
+    /***************************************************
+     * SECTION TITLES
+     ***************************************************/
+    section {
+      width: min(1200px, 90%);
+      margin: 0 auto 40px auto;
+      padding: 20px 0;
+    }
+    section h2 {
+      font-family: "Avenir Next", sans-serif;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    /***************************************************
+     * DAILY DEPARTURES LAYOUT
+     ***************************************************/
+    .daily-departures {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    /* Left "big card" */
+    .big-card {
+      flex: 1 1 450px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .big-card .image-wrap {
+      width: 100%;
+      aspect-ratio: 16/9; /* or a fixed height if you prefer */
+      background-size: cover;
+      background-position: center;
+    }
+    .card-content {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+    }
+    .card-content h3 {
+      font-size: 1.2rem;
+      margin-bottom: 6px;
+      font-weight: 700;
+      font-family: "Avenir Next", sans-serif;
+    }
+    .card-content p {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-footer button {
+      background: #2656A0;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .card-footer button:hover {
+      background: #7DC0DE;
+    }
+
+    /* Right "small cards" stacked vertically */
+    .small-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      flex: 1 1 260px;
+    }
+    .small-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .small-card .image-wrap {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /***************************************************
+     * PRIVATE CHARTERS LAYOUT
+     ***************************************************/
+    .private-charters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .charter-card {
+      flex: 1 1 450px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .charter-card .image-wrap {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background-size: cover;
+      background-position: center;
+    }
+    .charter-card .card-content {
+      padding: 16px;
+      flex: 1;
+    }
+    .charter-card .card-content h3 {
+      margin-bottom: 6px;
+      font-size: 1.2rem;
+      font-family: "Avenir Next", sans-serif;
+      font-weight: 700;
+    }
+    .charter-card .card-content p {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .charter-card .card-footer {
+      display: flex;
+      justify-content: flex-end;
+      padding: 0 16px 16px;
+    }
+    .charter-card .card-footer button {
+      background: #2656A0;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .charter-card .card-footer button:hover {
+      background: #7DC0DE;
+    }
+
+    /***************************************************
+     * FOOTER
+     ***************************************************/
+    footer {
+      background: #2656A0;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    /***************************************************
+     * RESPONSIVE
+     ***************************************************/
+    @media(max-width: 768px) {
+      .daily-departures, .private-charters {
+        flex-direction: column;
+      }
+      .small-cards {
+        flex-direction: row; /* to avoid super tall stacked cards on small screens */
+        overflow-x: auto;
+      }
+      .small-card {
+        min-width: 280px; /* so they can scroll horizontally */
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img 
+      src="https://cdn.prod.website-files.com/67646bc27cd171f4f4446754/6769e9d91820601d0c368c3a_256x256%20logo%20svg.svg"
+      alt="Salty Pelican Boat Tours Logo"
+    />
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Daily Tours</a>
+      <a href="#">Private Charters</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO BANNER -->
+  <div class="hero-banner">
+    <div class="hero-content">
+      <h1>Tour the Serenity of Our Coastal Marine Life</h1>
+      <p>
+        Enjoy breathtaking views and memorable encounters 
+        with dolphins, sunsets, and shelling adventures.
+      </p>
+      <a href="#" class="cta-btn">Book a Tour</a>
+    </div>
+  </div>
+
+  <!-- DAILY DEPARTURES SECTION -->
+  <section>
+    <h2>Daily Departures Aboard the Salty Pelican</h2>
+    <div class="daily-departures">
+      <!-- BIG CARD - Dolphin Fun Tour -->
+      <div class="big-card">
+        <div 
+          class="image-wrap" 
+          style="background-image: url('https://cdn.prod.website-files.com/67646bc27cd171f4f4446754/67648014cb513810d4d0cef0_dolpins-950x650-salty-pelican-banners-081.jpg');"
+        ></div>
+        <div class="card-content">
+          <h3>Daily Departure: Dolphin Fun Tour</h3>
+          <p>$10 – $30 | Vessel: Dolphin Quest • 1.5 hours</p>
+          <div class="card-footer">
+            <button 
+              onclick="window.location.href='https://fareharbor.com/embeds/book/saltypelicanboattours/items/...'">
+              Book
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SMALL CARDS Column -->
+      <div class="small-cards">
+        <!-- Sunsets & Dolphins -->
+        <div class="small-card">
+          <div
+            class="image-wrap"
+            style="background-image: url('https://cdn.prod.website-files.com/67646bc27cd171f4f4446754/67647c01a4aa4f96ec0b6d2f_banners-salty-pelican-banners-006.jpg');"
+          ></div>
+          <div class="card-content">
+            <h3>Daily Departure: Sunsets &amp; Dolphins</h3>
+            <p>$45 | Vessel: Dolphin Quest • 2 hours</p>
+            <div class="card-footer" style="justify-content: flex-end;">
+              <button
+                onclick="window.location.href='https://fareharbor.com/embeds/book/saltypelicanboattours/items/...'">
+                Book
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shell Key Adventure -->
+        <div class="small-card">
+          <div
+            class="image-wrap"
+            style="background-image: url('https://cdn.prod.website-files.com/67646bc27cd171f4f4446754/67648014cb513810d4d0cef0_dolpins-950x650-salty-pelican-banners-081.jpg');"
+          ></div>
+          <div class="card-content">
+            <h3>Daily Departure: Shell Key Adventure</h3>
+            <p>$15 – $55 | Vessel: Dolphin Quest • 4 hours</p>
+            <div class="card-footer" style="justify-content: flex-end;">
+              <button
+                onclick="window.location.href='https://fareharbor.com/embeds/book/saltypelicanboattours/items/...'">
+                Book
+              </button>
+            </div>
+          </div>
+        </div>
+      </div><!-- .small-cards -->
+    </div><!-- .daily-departures -->
+  </section>
+
+  <!-- PRIVATE CHARTERS SECTION -->
+  <section>
+    <h2>Private Charters</h2>
+    <div class="private-charters">
+      <!-- Charter 1: The Dolphin Quest -->
+      <div class="charter-card">
+        <div
+          class="image-wrap"
+          style="background-image:url('https://cdn.prod.website-files.com/67646bc27cd171f4f4446754/676481d343d62767c2eab659_dolphinquest-900x650-salty-pelican-banners-037.jpg');"
+        ></div>
+        <div class="card-content">
+          <h3>Private Charter: The Dolphin Quest</h3>
+          <p>7-17 Passengers • Custom Requests Available • Half Day Durations</p>
+        </div>
+        <div class="card-footer">
+          <button
+            onclick="window.location.href='https://fareharbor.com/embeds/book/saltypelicanboattours/items/...'">
+            View
+          </button>
+        </div>
+      </div>
+
+      <!-- Charter 2: The Pelly-Can -->
+      <div class="charter-card">
+        <div
+          class="image-wrap"
+          style="background-image:url('https://cdn.prod.website-files.com/67646bc27cd171f4f4446754/676481629ab828fc46a2502d_pellycan-salty-pelican-banners-003.jpg');"
+        ></div>
+        <div class="card-content">
+          <h3>Private Charter: The Pelly-Can</h3>
+          <p>6 Passenger Max • Multiple Options • Custom Requests Available</p>
+        </div>
+        <div class="card-footer">
+          <button
+            onclick="window.location.href='https://fareharbor.com/embeds/book/saltypelicanboattours/items/...'">
+            View
+          </button>
+        </div>
+      </div>
+    </div><!-- .private-charters -->
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Salty Pelican Boat Tours. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
+<!-- END SINGLE-BLOCK CODE -->
