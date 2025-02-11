@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "danielsanmedium.dscodegpt",
+        "bradlc.vscode-tailwindcss",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-rename-tag",
+        "dsznajder.es7-react-js-snippets",
+        "christian-kohler.path-intellisense",
+        "naumovs.color-highlight"
+    ]
+}
