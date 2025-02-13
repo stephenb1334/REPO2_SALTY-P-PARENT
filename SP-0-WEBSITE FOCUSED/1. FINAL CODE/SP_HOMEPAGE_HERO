@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salty Pelican</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+            position: relative;
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?fit=crop&w=1920&h=1080&q=80');
+            background-size: cover;
+            background-attachment: fixed; /* Parallax effect */
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            z-index: 1;
+        }
+        .hero h1, .hero p, .hero .button-2 {
+            position: relative;
+            z-index: 2;
+        }
+        .hero h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .button-2 {
+            color: #000;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 10px 40px;
+            font-family: Montserrat, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button-2:hover {
+            background-color: #e0e0e0; /* Slightly darker background on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Discover the Beauty of the Gulf Coast</h1>
+        <p>Join us for unforgettable boat tours and marine adventures</p>
+        <a class="button-2" href="https://fareharbor.com/embeds/book/saltypelicanboattours/?full-items=yes&flow=1303114" onclick="return !(window.FH && FH.open({ shortname: 'saltypelicanboattours', fallback: 'simple', fullItems: 'yes', flow: 1303114, view: 'items' }));">Book Your Adventure</a>
+    </div>
+    <script src="https://fareharbor.com/embeds/script/calendar/saltypelicanboattours/?fallback=simple&full-items=yes&flow=1303114"></script>
+</body>
+</html>
