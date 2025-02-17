@@ -1,7 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="HT" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" environment="&lt;No Environment&gt;" path="">
-    <method v="2">
-      <option name="LaunchBrowser.Before.Run" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="www.espn.com" />
-    </method>
-  </configuration>
-</component>
